@@ -2,10 +2,6 @@
 @import 'colors';
 @import 'dimensions';
 
-@import '_mixins';
-@import 'colors';
-@import 'dimensions';
-
 .swiper-container {
 	max-width: 100vw;
 	position: relative;
@@ -16,6 +12,7 @@
 		.swiper-slide {
 			img {
 				display: block;
+				width: 100%;
 				max-width: 100vw;
 			}
 		}
@@ -30,7 +27,7 @@
 			background-color: rgba(#000, 0.5);
 			top: auto;
 			right: 0%;
-			bottom: 3em;
+			bottom: 3.25em;
 			width: 100%;
 			height: 11rem;
 			padding-right: 1em;

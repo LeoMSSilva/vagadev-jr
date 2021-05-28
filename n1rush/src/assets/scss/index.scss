@@ -5,6 +5,7 @@
 @import 'header';
 @import 'slider';
 @import 'highlighted';
+@import 'products';
 @import 'footer';
 
 body {
@@ -22,9 +23,4 @@ body {
 
 .backgroundColorNavebar {
 	background-color: $dark;
-}
-
-.navFullScreen {
-	position: absolute;
-	z-index: -1;
 }

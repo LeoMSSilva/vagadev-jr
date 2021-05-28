@@ -36,3 +36,22 @@
 		font-weight: bold;
 	}
 }
+
+@mixin arrows {
+	height: 5rem;
+	width: 10rem;
+	margin: 0rem;
+	background: transparent;
+	box-shadow: none;
+	display: none;
+	&:checked{
+		background-color: $dark;
+	}
+	@media screen and (max-width: $mobile) {
+		display: block;
+	}
+	img {
+		height: 100%;
+		width: 100%;
+	}
+}

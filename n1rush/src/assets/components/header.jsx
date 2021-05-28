@@ -2,11 +2,13 @@ import '../scss/index.scss';
 import Nav from './nav';
 import Slider from './slider';
 import logo from '../imgs/logo.png';
-import buy from '../svgs/shoppingBag.svg';
+import currentBag from '../svgs/shoppingBag.svg';
 import contact from '../svgs/contact.svg';
 import search from '../svgs/search.svg';
+import { useBag } from '../contexts/bagContext';
 
 function Header() {
+	const { bag } = useBag();
 	return (
 		<>
 			<header>
@@ -21,11 +23,11 @@ function Header() {
 					<img src={search} alt="Página de pesquisa" />
 					<p>Buscar</p>
 					<div className="lineVertical" />
-					<img src={buy} alt="Sacola de compras" />
-					<p className="bag" />
+					<img src={currentBag} alt="Sacola de compras" />
+					<p className="bag">{bag}</p>
 				</div>
 			</header>
-			<Slider/>
+			<Slider />
 		</>
 	);
 }
