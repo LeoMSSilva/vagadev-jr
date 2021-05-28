@@ -1,11 +1,13 @@
 import '../scss/index.scss';
-import Footer from './footer';
 import Lightbox from './lightbox';
+import Header from './header';
+import Footer from './footer';
 
 function App() {
 	return (
 		<>
 			<Lightbox />
+			<Header />
 			<Footer />
 		</>
 	);
