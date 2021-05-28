@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 26" width="28" height="26">
+	<title>contact-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<path id="paper-plane" fill-rule="evenodd" class="shp0" d="M1.68 8.12L22.47 8.57L24.63 8.62L23.06 10.09L7.91 24.2L6.68 25.34L6.45 23.69L5.28 15.98L0.95 9.48L0 8.09L1.68 8.12ZM6.45 14.61L17.99 10.22L3.31 9.91L6.45 14.61ZM7.92 21.79L18.61 11.84L7.08 16.23L7.92 21.79Z" />
+</svg>
