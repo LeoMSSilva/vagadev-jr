@@ -1,7 +1,7 @@
 footer {
 	position: relative;
-	z-index: 1;
 	bottom: 0;
+	z-index: 1;
 	width: 100vw;
 	height: 3.125rem;
 	display: flex;
@@ -9,7 +9,7 @@ footer {
 	.footer-left {
 		background-color: $dark;
 		height: 100%;
-		width: 27.5%;
+		width: 27.5vw;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
@@ -22,7 +22,7 @@ footer {
 	.footer-right {
 		background-color: $light;
 		height: 100%;
-		width: 72.5%;
+		width: 72.5vw;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;

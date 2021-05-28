@@ -71,7 +71,7 @@
 		}
 		.description {
 			font-size: 0.75em;
-			letter-spacing: 0.048em;
+			letter-spacing: 0.028em;
 			line-height: 1.7em;
 			margin-top: -1.9rem;
 			@media screen and (max-width: $mobile) {
@@ -137,7 +137,6 @@
 	.swiper-button-prev {
 		@include buttons-slider;
 		right: 1.438rem;
-		
 		@media screen and (max-width: $mobile) {
 			right: 3rem;
 		}
@@ -145,7 +144,6 @@
 	.swiper-button-next {
 		@include buttons-slider;
 		right: 0.063rem;
-		
 		@media screen and (max-width: $mobile) {
 			right: 1rem;
 		}

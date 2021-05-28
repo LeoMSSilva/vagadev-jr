@@ -1,0 +1,67 @@
+@import 'fonts';
+
+.highlighted {
+	position: relative;
+	width: 100vw;
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	@media screen and (max-width: $mobile) {
+		flex-direction: column;
+	}
+	.banner {
+		width: 32.5rem;
+		margin: -7.8rem 0.5rem 0;
+		@media screen and (max-width: $mobile) {
+			width: 95vw;
+			margin: 1.5rem 0 -0.5rem 0;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+		.textBox {
+			height: 2.7rem;
+			margin-top: -0.25rem;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: flex-end;
+			border-bottom-left-radius: 0.313rem;
+			border-bottom-right-radius: 0.313rem;
+			background-color: $dark;
+			@media screen and (max-width: $mobile) {
+				height: 2rem;
+			}
+			.name {
+				border-bottom-right-radius: 0.313rem;
+				background-color: $light;
+				width: 98.5%;
+				height: 100%;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-around;
+				p {
+					font-family: $font-regular;
+					font-weight: bold;
+					font-size: 0.83em;
+					color: $dark;
+					@media screen and (max-width: $mobile) {
+						font-size: 0.7em;
+					}
+				}
+				.line {
+					height: 0.05rem;
+					width: 40%;
+					background-color: $dark;
+					@media screen and (max-width: $mobile) {
+						width: 20%;
+					}
+				}
+			}
+		}
+	}
+}
