@@ -4,11 +4,11 @@ import '../scss/index.scss';
 
 function Lightbox() {
 	function closeLightbox() {
-		document.querySelector('.background').classList.toggle('hidden');
+		document.querySelector('.backgroundLightbox').classList.toggle('hidden');
 	}
 	return (
 		<>
-			<div className="background hidden">
+			<div className="backgroundLightbox hidden">
 				<div className="lightbox">
 					<button className="close" onClick={closeLightbox} />
 					<div className="text">
