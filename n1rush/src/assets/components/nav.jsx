@@ -21,6 +21,8 @@ function Nav() {
 			document.querySelector('.navebar').classList.toggle('hidden');
 			document.querySelector('header').classList.toggle('blue');
 			document.querySelector('body').classList.toggle('backgroundColorNavebar');
+			document.querySelector('header').classList.toggle('backgroundColorNavebar');
+			document.querySelector('.swiper-container').classList.toggle('navFullScreen');
 			document.querySelector('footer').classList.toggle('navFullScreen');
 			imageExchange();
 		}

@@ -1,5 +1,6 @@
 import '../scss/index.scss';
 import Nav from './nav';
+import Slider from './slider';
 import logo from '../imgs/logo.png';
 import buy from '../svgs/shoppingBag.svg';
 import contact from '../svgs/contact.svg';
@@ -24,6 +25,7 @@ function Header() {
 					<p className="bag" />
 				</div>
 			</header>
+			<Slider/>
 		</>
 	);
 }
