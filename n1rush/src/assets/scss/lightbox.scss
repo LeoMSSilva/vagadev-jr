@@ -1,0 +1,58 @@
+.background {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba($dark, 0.5);
+	width: 100vw;
+	height: 100vh;
+	.lightbox {
+		width: 21rem;
+		height: 24.87rem;
+		background-color: $white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		@media screen and (max-width: $mobile) {
+			width: 19.5rem;
+		}
+		.close {
+			width: 2.5rem;
+			height: 2.5rem;
+			margin-top: 1em;
+			margin-left: 15em;
+			background: url(../svgs/closeBtn.svg);
+			cursor: pointer;
+			border: none;
+		}
+		.text {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			p {
+				width: 13rem;
+				font-size: 1.8em;
+				letter-spacing: -0.1rem;
+				line-height: 1.3em;
+				font-family: $font-light;
+				font-weight: 100;
+				text-align: center;
+				margin-top: 2.8rem;
+				background-color: $white;
+			}
+			.line {
+				width: 4rem;
+				height: 0.1rem;
+				background-color: $gray;
+				@media screen and (max-width: $mobile) {
+					width: 3.25rem;
+				}
+			}
+		}
+		.success {
+			height: 11.45rem;
+		}
+	}
+}
