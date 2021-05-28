@@ -1,12 +1,8 @@
-import { useState, useEffect } from 'react';
-import { isMobile } from 'react-device-detect';
 import '../scss/index.scss';
 import game1 from '../imgs/game1.png';
 import game2 from '../imgs/game2.png';
 import game3 from '../imgs/game3.png';
 import highlights from '../svgs/highlights.svg';
-// import arrowLeft from '../svgs/angleLeft.svg';
-// import arrowRight from '../svgs/angleRight.svg';
 import Product from './product';
 
 import Carousel from 'react-elastic-carousel';
@@ -56,19 +52,6 @@ function Products() {
 					))}
 				</Carousel>
 			</div>
-
-			{/* 
-			<div className="games">
-				<div className="arrowLeft" onClick={() => preview()}>
-					<img src={arrowLeft} alt="" />
-				</div>
-				{gamesForSale.map((game) => (
-					<Product key={game.id} id={game.id} name={game.name} price={game.price} image={game.image} />
-				))}
-				<div className="arrowRight" onClick={() => next()}>
-					<img src={arrowRight} alt="" />
-				</div>
-			</div> */}
 		</>
 	);
 }
