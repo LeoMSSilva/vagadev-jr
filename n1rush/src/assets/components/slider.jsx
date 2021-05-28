@@ -50,7 +50,6 @@ const Slider = () => {
 		<>
 			<Swiper
 				effect={'fade'}
-				// autoHeight={true}
 				navigation={true}
 				pagination={{ type: 'fraction' }}
 				loop={true}
