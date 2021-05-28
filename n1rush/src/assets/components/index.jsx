@@ -1,7 +1,8 @@
 import '../scss/index.scss';
+import Footer from './footer';
 
 function App() {
-	return <>Start Project</>;
+	return <Footer/>;
 }
 
 export default App;
